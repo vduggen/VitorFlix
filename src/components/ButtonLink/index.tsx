@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface ButtonLinkProps {
   classNameProps: string;
@@ -7,9 +8,9 @@ interface ButtonLinkProps {
 
 const ButtonLink: React.FC<ButtonLinkProps> = ({ classNameProps, hrefProps, children}) => {
   return (
-    <a href={hrefProps} className={classNameProps}>
+    <Link to={hrefProps} className={classNameProps}>
       {children}
-    </a>
+    </Link>
   );
 };
 

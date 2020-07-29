@@ -2,16 +2,24 @@ import React from 'react';
 
 import { Container } from './styles';
 import Logo from '../../assets/logo.png';
-import Button from '../../styles/Button/styles';
+import { Link } from 'react-router-dom';
 
 const Menu: React.FC = () => {
   return (
     <Container className="Menu">
-      <img src={Logo} className="Logo" alt="Logo VitorFlix" width="168" />
+      <Link to="/">
+        <img src={Logo} className="Logo" alt="Logo VitorFlix" width="168" />
+      </Link>
 
-      <Button as="a" className="ButtonLink" href="/">
-        Novo vídeo
-      </Button>
+      <nav>
+        <Link className="ButtonLink" to="/Cadastro/Video">
+          Novo vídeo
+        </Link>
+
+        <Link className="ButtonLink" to="/Cadastro/Categoria">
+          Novo Categoria
+        </Link>
+      </nav>
     </Container>
   );
 };

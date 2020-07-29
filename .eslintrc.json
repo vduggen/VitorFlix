@@ -33,7 +33,8 @@
         }],
         "import/no-unresolved": "off",
         "arrow-parens": ["error", "as-needed"],
-        "comma-dangle": ["error", "never"]
+        "comma-dangle": ["error", "never"],
+        "strict": "off"
     },
 
 }

@@ -1,5 +1,6 @@
 const colors = {
   primary: '#2A7AE4',
+  red: '#ff0000',
   black: '#000000',
   blackLighter: '#9E9E9E',
   grayLight: '#F5F5F5',
@@ -7,7 +8,7 @@ const colors = {
   white: '#FFFFFF',
   frontEnd: '#6BD1FF',
   backEnd: '#00C86F',
-  bg: '#53585D'
-}
+  bg: '#53585D',
+};
 
 export default colors;
