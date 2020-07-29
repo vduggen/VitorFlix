@@ -16,6 +16,8 @@
 	🚧  VitorFlix 🚀 Em construção...  🚧
 </h4>
 
+<img src="https://imgur.com/8Qw9MFt.png" alt="banner">
+
 ## Tabela de conteúdos
    * [Sobre](#Sobre)    
    * [Tecnologias](#tecnologias)
